@@ -130,5 +130,5 @@ jobs:
           application_name: Tuto_CI-CD_SpringBoot-Api
           environment_name: Tutocicdspringbootapi-env
           version_label: ${{github.SHA}}
-          region: us-east-1
+          region: us-east-2
           deployment_package: Tuto-spring-Boot-0.0.1-SNAPSHOT.jar
