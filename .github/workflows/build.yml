@@ -7,7 +7,7 @@ on:
     branches:
       - main
 jobs:
-  # This workflow contains a single job called "Test's job"
+  # This workflow contains 4 jobs
   #Test's job
   tests:
     name: Unit tests
