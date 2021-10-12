@@ -20,10 +20,6 @@ class tutoResourceTest {
         assertEquals( "HEALTH CHECK OK!", mHealthCheck.healthCheck());
     }
 
-    @Test
-    void version() {
-        assertEquals( "The actual version is 1.0.0", mDataResource.version());
-    }
 
     @Test
     void nationsLength() {
